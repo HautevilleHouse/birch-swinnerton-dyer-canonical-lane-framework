@@ -1,0 +1,81 @@
+{
+  "all_pass": true,
+  "all_pass_normalized": true,
+  "blockers": {
+    "B_G1": [],
+    "B_G2": [],
+    "B_G3": [],
+    "B_G4": [],
+    "B_G5": [],
+    "B_G6": [],
+    "B_GCoh": [],
+    "B_GM": []
+  },
+  "derived": {
+    "strict_coh_zero": true,
+    "strict_margin": 1.0
+  },
+  "gates": {
+    "B_G1": "PASS",
+    "B_G2": "PASS",
+    "B_G3": "PASS",
+    "B_G4": "PASS",
+    "B_G5": "PASS",
+    "B_G6": "PASS",
+    "B_GCoh": "PASS",
+    "B_GM": "PASS"
+  },
+  "inputs": {
+    "alpha_lock": 1.0,
+    "bsd_floor": 1.0,
+    "eps_coh": 0.0,
+    "kappa_compact": 1.0,
+    "kappa_rank": 1.0,
+    "rho_rigidity": 1.0,
+    "sigma_capture": 1.0,
+    "sigma_star_can": 1.0
+  },
+  "lane": {
+    "active_lane": "manifold_constrained",
+    "canonical_theorem_lane": "manifold_constrained"
+  },
+  "meta": {
+    "computed_at_utc": "2026-03-05T17:40:52+00:00",
+    "framework": "birch_swinnerton_dyer"
+  },
+  "normalized": {
+    "blockers": {
+      "G1": [],
+      "G2": [],
+      "G3": [],
+      "G4": [],
+      "G5": [],
+      "G6": [],
+      "GCoh": [],
+      "GM": []
+    },
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS",
+      "G3": "PASS",
+      "G4": "PASS",
+      "G5": "PASS",
+      "G6": "PASS",
+      "GCoh": "PASS",
+      "GM": "PASS"
+    }
+  },
+  "schema": {
+    "g6_policy": "G6 is a standalone theorem gate in this framework",
+    "normalized_gate_keys": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "GCoh",
+      "GM"
+    ]
+  }
+}

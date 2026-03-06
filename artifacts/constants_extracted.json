@@ -1,0 +1,191 @@
+{
+  "constants": {
+    "alpha_lock": {
+      "components": {
+        "alpha_lock_raw": 1.036
+      },
+      "formula": "alpha_lock_raw",
+      "normalized_value": 1.036,
+      "notes": "Determining-class lock strength.",
+      "raw_value": 1.036,
+      "reference": 1.0,
+      "required_nonnegative": false,
+      "required_positive": true,
+      "source_section": "paper/BSD_CONJECTURE_PREPRINT.md Appendix E",
+      "status": "derived_numeric",
+      "strict_zero": false,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    },
+    "bsd_floor": {
+      "components": {
+        "bsd_floor_raw": 1.014
+      },
+      "formula": "bsd_floor_raw",
+      "normalized_value": 1.014,
+      "notes": "Strict arithmetic barrier floor.",
+      "raw_value": 1.014,
+      "reference": 1.0,
+      "required_nonnegative": false,
+      "required_positive": true,
+      "source_section": "paper/BSD_CONJECTURE_PREPRINT.md Appendix D/E",
+      "status": "derived_numeric",
+      "strict_zero": false,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    },
+    "eps_coh": {
+      "components": {
+        "eps_coh_raw": 0.0
+      },
+      "formula": "eps_coh_raw",
+      "normalized_value": 0.0,
+      "notes": "Strict coherence target.",
+      "raw_value": 0.0,
+      "reference": 1.0,
+      "required_nonnegative": true,
+      "required_positive": false,
+      "source_section": "paper/BSD_CONJECTURE_PREPRINT.md Appendix E",
+      "status": "derived_numeric",
+      "strict_zero": true,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    },
+    "kappa_compact": {
+      "components": {
+        "delta_comp_sup_raw": 0.241
+      },
+      "formula": "1.0 / (1.0 + delta_comp_sup_raw)",
+      "normalized_value": 0.8058017727639,
+      "notes": "Compactness modulus from supremum defect.",
+      "raw_value": 0.8058017727639,
+      "reference": 1.0,
+      "required_nonnegative": false,
+      "required_positive": true,
+      "source_section": "paper/BSD_CONJECTURE_PREPRINT.md Appendix C",
+      "status": "derived_numeric",
+      "strict_zero": false,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    },
+    "kappa_rank": {
+      "components": {
+        "A_ker_raw": 0.907,
+        "c_star_raw": 1.44,
+        "e_star_raw": 0.226
+      },
+      "formula": "c_star_raw * A_ker_raw - e_star_raw",
+      "normalized_value": 1.08008,
+      "notes": "Projected arithmetic-rank coercivity floor.",
+      "raw_value": 1.08008,
+      "reference": 1.0,
+      "required_nonnegative": false,
+      "required_positive": true,
+      "source_section": "paper/BSD_CONJECTURE_PREPRINT.md Appendix A",
+      "status": "derived_numeric",
+      "strict_zero": false,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    },
+    "rho_rigidity": {
+      "components": {
+        "rho_rigidity_raw": 1.079
+      },
+      "formula": "rho_rigidity_raw",
+      "normalized_value": 1.079,
+      "notes": "Rigidity exclusion floor.",
+      "raw_value": 1.079,
+      "reference": 1.0,
+      "required_nonnegative": false,
+      "required_positive": true,
+      "source_section": "paper/BSD_CONJECTURE_PREPRINT.md Appendix D",
+      "status": "derived_numeric",
+      "strict_zero": false,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    },
+    "sigma_capture": {
+      "components": {
+        "flow_loss_raw": 0.169,
+        "jump_loss_raw": 0.139,
+        "sigma_floor_raw": 1.371
+      },
+      "formula": "sigma_floor_raw - flow_loss_raw - jump_loss_raw",
+      "normalized_value": 1.063,
+      "notes": "Capture floor from flow+jump budget.",
+      "raw_value": 1.063,
+      "reference": 1.0,
+      "required_nonnegative": false,
+      "required_positive": true,
+      "source_section": "paper/BSD_CONJECTURE_PREPRINT.md Appendix B",
+      "status": "derived_numeric",
+      "strict_zero": false,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    }
+  },
+  "framework": "birch_swinnerton_dyer",
+  "generated_utc": "2026-03-06T02:15:51Z",
+  "inputs_path": "artifacts/constants_extraction_inputs.json",
+  "inputs_sha256": "c54f937034699930dc4a70651269d032dce3a08993cf3fac916e6f3e1450398d",
+  "schema_version": "2026-03-05",
+  "stitch": {
+    "sigma_star_can": {
+      "components": {
+        "sigma_star_can_raw": 1.053
+      },
+      "formula": "sigma_star_can_raw",
+      "normalized_value": 1.053,
+      "notes": "Canonical stitch capture floor.",
+      "raw_value": 1.053,
+      "reference": 1.0,
+      "required_nonnegative": false,
+      "required_positive": true,
+      "source_section": "paper/BSD_CONJECTURE_PREPRINT.md Section 5 / stitch constants",
+      "status": "derived_numeric",
+      "strict_zero": false,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    }
+  }
+}

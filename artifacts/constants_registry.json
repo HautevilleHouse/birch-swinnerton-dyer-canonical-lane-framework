@@ -1,0 +1,61 @@
+{
+  "constants": {
+    "alpha_lock": {
+      "notes": "Promoted by extraction pipeline; status=derived_numeric; source_section=paper/BSD_CONJECTURE_PREPRINT.md Appendix E; raw=1.036, ref=1.0, formula=alpha_lock_raw",
+      "source": "artifacts/constants_extracted.json#alpha_lock",
+      "source_section": "paper/BSD_CONJECTURE_PREPRINT.md Appendix E",
+      "status": "derived_numeric",
+      "theorem_level": true,
+      "value": 1.036
+    },
+    "bsd_floor": {
+      "notes": "Promoted by extraction pipeline; status=derived_numeric; source_section=paper/BSD_CONJECTURE_PREPRINT.md Appendix D/E; raw=1.014, ref=1.0, formula=bsd_floor_raw",
+      "source": "artifacts/constants_extracted.json#bsd_floor",
+      "source_section": "paper/BSD_CONJECTURE_PREPRINT.md Appendix D/E",
+      "status": "derived_numeric",
+      "theorem_level": true,
+      "value": 1.014
+    },
+    "eps_coh": {
+      "notes": "Promoted by extraction pipeline; status=derived_numeric; source_section=paper/BSD_CONJECTURE_PREPRINT.md Appendix E; raw=0.0, ref=1.0, formula=eps_coh_raw",
+      "source": "artifacts/constants_extracted.json#eps_coh",
+      "source_section": "paper/BSD_CONJECTURE_PREPRINT.md Appendix E",
+      "status": "derived_numeric",
+      "theorem_level": true,
+      "value": 0.0
+    },
+    "kappa_compact": {
+      "notes": "Promoted by extraction pipeline; status=derived_numeric; source_section=paper/BSD_CONJECTURE_PREPRINT.md Appendix C; raw=0.8058017727639, ref=1.0, formula=1.0 / (1.0 + delta_comp_sup_raw)",
+      "source": "artifacts/constants_extracted.json#kappa_compact",
+      "source_section": "paper/BSD_CONJECTURE_PREPRINT.md Appendix C",
+      "status": "derived_numeric",
+      "theorem_level": true,
+      "value": 0.8058017727639
+    },
+    "kappa_rank": {
+      "notes": "Promoted by extraction pipeline; status=derived_numeric; source_section=paper/BSD_CONJECTURE_PREPRINT.md Appendix A; raw=1.08008, ref=1.0, formula=c_star_raw * A_ker_raw - e_star_raw",
+      "source": "artifacts/constants_extracted.json#kappa_rank",
+      "source_section": "paper/BSD_CONJECTURE_PREPRINT.md Appendix A",
+      "status": "derived_numeric",
+      "theorem_level": true,
+      "value": 1.08008
+    },
+    "rho_rigidity": {
+      "notes": "Promoted by extraction pipeline; status=derived_numeric; source_section=paper/BSD_CONJECTURE_PREPRINT.md Appendix D; raw=1.079, ref=1.0, formula=rho_rigidity_raw",
+      "source": "artifacts/constants_extracted.json#rho_rigidity",
+      "source_section": "paper/BSD_CONJECTURE_PREPRINT.md Appendix D",
+      "status": "derived_numeric",
+      "theorem_level": true,
+      "value": 1.079
+    },
+    "sigma_capture": {
+      "notes": "Promoted by extraction pipeline; status=derived_numeric; source_section=paper/BSD_CONJECTURE_PREPRINT.md Appendix B; raw=1.063, ref=1.0, formula=sigma_floor_raw - flow_loss_raw - jump_loss_raw",
+      "source": "artifacts/constants_extracted.json#sigma_capture",
+      "source_section": "paper/BSD_CONJECTURE_PREPRINT.md Appendix B",
+      "status": "derived_numeric",
+      "theorem_level": true,
+      "value": 1.063
+    }
+  },
+  "updated_at_utc": "2026-03-06T02:15:52Z"
+}

@@ -1,0 +1,20 @@
+{
+  "extracted_source": "artifacts/constants_extracted.json",
+  "framework": "birch_swinnerton_dyer",
+  "generated_utc": "2026-03-11T05:34:55Z",
+  "promoted_constants": {
+    "alpha_lock": 1.036,
+    "bsd_floor": 1.014,
+    "eps_coh": 0.0,
+    "kappa_compact": 0.8058017727639,
+    "kappa_rank": 1.08008,
+    "rho_rigidity": 1.079,
+    "sigma_capture": 1.063
+  },
+  "promoted_stitch": {
+    "sigma_star_can": 1.053
+  },
+  "registry_path": "artifacts/constants_registry.json",
+  "schema_version": "2026-03-05",
+  "stitch_path": "artifacts/stitch_constants.json"
+}

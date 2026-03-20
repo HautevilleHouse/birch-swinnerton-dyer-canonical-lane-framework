@@ -479,6 +479,6 @@ chain; no additional bridge exclusions are left in this manuscript layer.
 1. Clay Mathematics Institute, *Birch and Swinnerton-Dyer Conjecture (Millennium Problem page)*. [link](https://www.claymath.org/millennium/birch-and-swinnerton-dyer-conjecture/)
 2. B. J. Birch and H. P. F. Swinnerton-Dyer, *Notes on elliptic curves. I*, J. Reine Angew. Math. 212 (1963), 7-25. DOI: `10.1515/crll.1963.212.7`
 3. B. J. Birch and H. P. F. Swinnerton-Dyer, *Notes on elliptic curves. II*, J. Reine Angew. Math. 218 (1965), 79-108. DOI: `10.1515/crll.1965.218.79`
-4. J. Coates and A. Wiles, *On the conjecture of Birch and Swinnerton-Dyer*, Invent. Math. 39 (1977), 223-251. DOI: `10.1007/BF01390039`
+4. J. Coates and A. Wiles, *On the conjecture of Birch and Swinnerton-Dyer*, Invent. Math. 39 (1977), 223-251. DOI: `10.1007/BF01402975`
 5. B. H. Gross and D. B. Zagier, *Heegner points and derivatives of L-series*, Invent. Math. 84 (1986), 225-320. DOI: `10.1007/BF01388809`
 6. J. H. Silverman, *The Arithmetic of Elliptic Curves*, 2nd ed., Springer, 2009.
